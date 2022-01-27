@@ -62,9 +62,21 @@ DSEventRecorderLogger >> newCollector [
 ]
 
 { #category : #accessing }
+DSEventRecorderLogger >> participantUUID: anObject [
+
+	participantUUID := anObject
+]
+
+{ #category : #accessing }
 DSEventRecorderLogger >> project: anObject [
 
 	project := anObject
+]
+
+{ #category : #accessing }
+DSEventRecorderLogger >> projectName: anObject [
+
+	projectName := anObject
 ]
 
 { #category : #initialization }
