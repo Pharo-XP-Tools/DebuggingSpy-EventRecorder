@@ -16,7 +16,6 @@ Class {
 	#traits : 'TDSLogger',
 	#classTraits : 'TDSLogger classTrait',
 	#instVars : [
-		'project',
 		'currentExperiment',
 		'currentTask',
 		'currentSurvey',
@@ -65,12 +64,6 @@ DSEventRecorderLogger >> newCollector [
 DSEventRecorderLogger >> participantUUID: anObject [
 
 	participantUUID := anObject
-]
-
-{ #category : #accessing }
-DSEventRecorderLogger >> project: anObject [
-
-	project := anObject
 ]
 
 { #category : #accessing }
