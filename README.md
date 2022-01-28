@@ -2,7 +2,7 @@
 
 ```Smalltalk
 Metacello new
-  baseline: 'BaselineOfDSSpyEventRecorder';
+  baseline: 'DSSpyEventRecorder';
   repository: 'github://Pharo-XP-Tools/DebuggingSpy-EventRecorder:main';
   load.
   
