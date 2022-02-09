@@ -39,7 +39,8 @@ DSEventRecorderLogger >> collector [
 ]
 
 { #category : #logging }
-DSEventRecorderLogger >> computeLoggingId [
+DSEventRecorderLogger >> computeLoggingId [ 
+	self flag: 'This is a bug!'
 ]
 
 { #category : #initialization }
