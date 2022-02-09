@@ -26,6 +26,12 @@ Class {
 	#category : #'DebuggingSpy-EventRecorder'
 }
 
+{ #category : #logging }
+DSEventRecorderLogger >> authorizeDataSending [
+
+	ERPrivacy sendDiagnosticsAndUsageData: true
+]
+
 { #category : #accessing }
 DSEventRecorderLogger >> collector [
 
