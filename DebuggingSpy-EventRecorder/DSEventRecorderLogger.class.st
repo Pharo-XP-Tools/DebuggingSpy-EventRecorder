@@ -40,7 +40,9 @@ DSEventRecorderLogger >> collector [
 
 { #category : #logging }
 DSEventRecorderLogger >> computeLoggingId [ 
-	self flag: 'This is a bug!'
+	currentSurvey ifNotNil:[^currentSurvey uuid].
+	currentTask ifNotNil:[^currentTask uuid].
+	^nil
 ]
 
 { #category : #initialization }
