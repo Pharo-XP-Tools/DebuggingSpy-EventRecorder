@@ -110,7 +110,7 @@ DSEventRecorderLogger >> setupLoggerForTask: aTask [
 { #category : #collectors }
 DSEventRecorderLogger >> updateCollector [
 
-	^ self collector
+	^ self newCollector
 		  taskOrSurveyId: self computeLoggingId;
 		  yourself
 ]
