@@ -40,8 +40,8 @@ DSEventRecorderLogger >> collector [
 
 { #category : #logging }
 DSEventRecorderLogger >> computeLoggingId [ 
-	currentSurvey ifNotNil:[^currentSurvey uuid].
-	currentTask ifNotNil:[^currentTask uuid].
+	currentSurvey ifNotNil:[^currentSurvey uuid asString].
+	currentTask ifNotNil:[^currentTask uuid asString].
 	^nil
 ]
 
