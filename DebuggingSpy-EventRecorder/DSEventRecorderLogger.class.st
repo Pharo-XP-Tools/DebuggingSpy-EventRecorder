@@ -45,6 +45,11 @@ DSEventRecorderLogger >> computeLoggingId [
 	^nil
 ]
 
+{ #category : #logging }
+DSEventRecorderLogger >> deliverDataNow [
+	PXEventRecorder uniqueInstance deliverNow
+]
+
 { #category : #initialization }
 DSEventRecorderLogger >> initialize [
 	EREventRecorder reset.
