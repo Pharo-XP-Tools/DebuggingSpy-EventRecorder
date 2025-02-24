@@ -1,1 +1,1 @@
-Package { #name : #BaselineOfDSSpyEventRecorder }
+Package { #name : 'BaselineOfDSSpyEventRecorder' }
