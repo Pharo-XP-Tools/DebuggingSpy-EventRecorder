@@ -11,7 +11,7 @@ BaselineOfDSSpyEventRecorder >> baseline: spec [
 	<baseline>
 	spec baseline: 'PharoXPEventRecorder' with: [ 
 		spec repository:
-			'github://Pharo-XP-Tools/Pharo-XP-EventRecorder:main/' ].
+			'github://Pharo-XP-Tools/Pharo-XP-EventRecorder:omar/' ].
 
 
 ]
