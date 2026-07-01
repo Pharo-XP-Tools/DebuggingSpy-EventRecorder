@@ -1,1 +1,1 @@
-Package { #name : #'DebuggingSpy-EventRecorder' }
+Package { #name : 'DebuggingSpy-EventRecorder' }
